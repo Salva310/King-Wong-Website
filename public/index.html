@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>King Wong Chinese Restaurant | Marlton, NJ</title>
+  <meta name="description" content="King Wong Chinese Restaurant in Marlton, NJ. Authentic Chinese cuisine with dine-in, takeout, and delivery. Order online or call today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <span class="logo-cn">王</span>
+        <span class="logo-text">King Wong</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#hours">Hours</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:+18565968990" class="nav-cta">Order: (856) 596-8990</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#hours">Hours</a>
+      <a href="#contact">Contact</a>
+      <a href="tel:+18565968990" class="mobile-cta">(856) 596-8990</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Authentic Chinese Cuisine</p>
+      <h1>King Wong<br /><span>Restaurant</span></h1>
+      <p class="hero-sub">Serving Marlton, NJ with bold flavors and family recipes since our doors opened</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary">View Menu</a>
+        <a href="tel:+18565968990" class="btn btn-outline">Call to Order</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge"><span class="badge-icon">🥡</span><span>Takeout</span></div>
+        <div class="badge"><span class="badge-icon">🏠</span><span>Dine-In</span></div>
+        <div class="badge"><span class="badge-icon">🚗</span><span>Delivery</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80" alt="Chinese restaurant interior" loading="lazy" />
+          </div>
+          <div class="about-img-accent">
+            <img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=300&q=80" alt="Chinese food dishes" loading="lazy" />
+          </div>
+          <div class="about-stamp">
+            <span>Est.</span>
+            <span class="stamp-year">Marlton</span>
+            <span>NJ</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p class="section-label">Our Story</p>
+          <h2>A Taste of <span>Tradition</span></h2>
+          <p>King Wong has been a beloved destination in Marlton, New Jersey for authentic Chinese-American cuisine. From our kitchen to your table, every dish is crafted with fresh ingredients and time-honored recipes.</p>
+          <p>Whether you're stopping in for a quick lunch special or gathering the whole family for dinner, we bring the warmth of Chinese hospitality to every meal.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">100+</span>
+              <span class="stat-label">Menu Items</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">Fresh</span>
+              <span class="stat-label">Daily Ingredients</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">Fast</span>
+              <span class="stat-label">Takeout Ready</span>
+            </div>
+          </div>
+          <a href="tel:+18565968990" class="btn btn-primary">Call Us Today</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU BANNER -->
+  <div class="menu-banner">
+    <div class="container">
+      <p>🍜 Lunch Specials Available Monday – Saturday 11AM–3PM &nbsp;|&nbsp; Free Delivery on Orders Over $20</p>
+    </div>
+  </div>
+
+  <!-- MENU -->
+  <section id="menu" class="menu">
+    <div class="container">
+      <p class="section-label">What We Serve</p>
+      <h2>Our <span>Menu</span></h2>
+      <p class="section-sub">Fresh ingredients, bold flavors. All dishes available for dine-in, takeout, or delivery.</p>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="appetizers">Appetizers</button>
+        <button class="tab-btn" data-tab="soups">Soups</button>
+        <button class="tab-btn" data-tab="rice">Fried Rice</button>
+        <button class="tab-btn" data-tab="noodles">Lo Mein</button>
+        <button class="tab-btn" data-tab="chicken">Chicken</button>
+        <button class="tab-btn" data-tab="beef">Beef</button>
+        <button class="tab-btn" data-tab="seafood">Seafood</button>
+        <button class="tab-btn" data-tab="pork">Pork</button>
+        <button class="tab-btn" data-tab="veggie">Vegetable</button>
+        <button class="tab-btn" data-tab="specials">Chef's Specials</button>
+        <button class="tab-btn" data-tab="lunch">Lunch Specials</button>
+        <button class="tab-btn" data-tab="combos">Combo Platters</button>
+      </div>
+
+      <div class="menu-panels">
+
+        <!-- APPETIZERS -->
+        <div class="menu-panel active" id="tab-appetizers">
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>Egg Roll (1)</h4><p>Crispy roll filled with pork &amp; vegetables</p></div><span class="mi-price">$2.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Vegetable Spring Roll (2)</h4><p>Light crispy rolls with garden vegetables</p></div><span class="mi-price">$4.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Fried Dumplings (8)</h4><p>Pan-fried pork &amp; cabbage dumplings</p></div><span class="mi-price">$8.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Steamed Dumplings (8)</h4><p>Steamed pork &amp; cabbage dumplings with dipping sauce</p></div><span class="mi-price">$8.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Spare Ribs</h4><p>BBQ pork spare ribs, golden roasted</p></div><span class="mi-price">$12.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Scallion Pancakes (4)</h4><p>Crispy layered pancakes with scallion</p></div><span class="mi-price">$6.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Fried Wontons (12)</h4><p>Crispy fried wontons with sweet &amp; sour sauce</span></p></div><span class="mi-price">$7.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Pu Pu Platter (for 2)</h4><p>Egg rolls, ribs, teriyaki beef, fried shrimp, dumplings</p></div><span class="mi-price">$19.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Teriyaki Beef (6)</h4><p>Marinated beef skewers, grilled</p></div><span class="mi-price">$9.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Crab Rangoon (6)</h4><p>Cream cheese &amp; crab in crispy wonton wrapper</p></div><span class="mi-price">$7.95</span></div>
+          </div>
+        </div>
+
+        <!-- SOUPS -->
+        <div class="menu-panel" id="tab-soups">
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>Wonton Soup</h4><p>Pork wontons in clear broth</p></div><span class="mi-price">$5.50 / $9.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Hot &amp; Sour Soup</h4><p>Classic spicy &amp; tangy tofu soup</p></div><span class="mi-price">$5.50 / $9.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Egg Drop Soup</h4><p>Silky egg ribbons in savory broth</p></div><span class="mi-price">$4.95 / $8.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Noodle Soup</h4><p>Lo mein noodles, vegetables, your choice of protein</p></div><span class="mi-price">$9.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Seafood Soup</h4><p>Shrimp, scallops &amp; crabmeat in rich broth</p></div><span class="mi-price">$13.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Vegetable Tofu Soup</h4><p>Mixed vegetables, tofu, and clear broth</p></div><span class="mi-price">$8.95</span></div>
+          </div>
+        </div>
+
+        <!-- FRIED RICE -->
+        <div class="menu-panel" id="tab-rice">
+          <p class="menu-panel-note">All fried rice served with soy sauce. Substitute brown rice +$1.00</p>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>Vegetable Fried Rice</h4><p>Mixed vegetables, egg, scallion</p></div><span class="mi-price">$10.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Chicken Fried Rice</h4><p>Tender chicken, egg, scallion</p></div><span class="mi-price">$12.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Roast Pork Fried Rice</h4><p>BBQ roast pork, egg, scallion</p></div><span class="mi-price">$12.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef Fried Rice</h4><p>Sliced beef, egg, scallion</p></div><span class="mi-price">$13.50</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Shrimp Fried Rice</h4><p>Jumbo shrimp, egg, scallion</p></div><span class="mi-price">$13.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>House Special Fried Rice</h4><p>Shrimp, beef, chicken &amp; roast pork</p></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Lobster Fried Rice</h4><p>Lobster meat, egg, scallion</p></div><span class="mi-price">$17.95</span></div>
+          </div>
+        </div>
+
+        <!-- LO MEIN -->
+        <div class="menu-panel" id="tab-noodles">
+          <p class="menu-panel-note">Soft egg noodles stir-fried with vegetables. Add extra protein +$2.00</p>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>Vegetable Lo Mein</h4><p>Mixed vegetables, soft noodles</p></div><span class="mi-price">$11.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Chicken Lo Mein</h4><p>Tender chicken, soft noodles</p></div><span class="mi-price">$13.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Roast Pork Lo Mein</h4><p>BBQ roast pork, soft noodles</p></div><span class="mi-price">$13.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef Lo Mein</h4><p>Sliced beef, soft noodles</p></div><span class="mi-price">$14.50</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Shrimp Lo Mein</h4><p>Jumbo shrimp, soft noodles</p></div><span class="mi-price">$14.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>House Special Lo Mein</h4><p>Shrimp, beef, chicken &amp; pork</p></div><span class="mi-price">$16.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Singapore Noodles</h4><p>Thin rice noodles, curry, shrimp &amp; pork</p></div><span class="mi-price">$15.95</span></div>
+          </div>
+        </div>
+
+        <!-- CHICKEN -->
+        <div class="menu-panel" id="tab-chicken">
+          <p class="menu-panel-note">All chicken dishes served with steamed or fried rice. Spicy dishes marked 🌶</p>
+          <div class="menu-grid">
+            <div class="menu-item popular"><div class="mi-info"><h4>General Tso's Chicken 🌶</h4><p>Crispy chicken in sweet &amp; spicy sauce</p></div><span class="mi-price">$16.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Sesame Chicken</h4><p>Crispy chicken, sesame sauce, sesame seeds</p></div><span class="mi-price">$16.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Chicken with Broccoli</h4><p>Tender chicken, fresh broccoli, brown sauce</p></div><span class="mi-price">$15.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Kung Pao Chicken 🌶</h4><p>Chicken, peanuts, peppers, spicy sauce</p></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Moo Goo Gai Pan</h4><p>Chicken, mushrooms, vegetables, light sauce</p></div><span class="mi-price">$15.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Chicken with Mixed Vegetables</h4><p>Seasonal vegetables, savory brown sauce</p></div><span class="mi-price">$15.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Sweet &amp; Sour Chicken</h4><p>Crispy chicken, bell peppers, pineapple</p></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Orange Flavored Chicken 🌶</h4><p>Crispy chicken, tangy orange sauce</p></div><span class="mi-price">$16.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Chicken with String Beans 🌶</h4><p>Chicken, string beans, garlic sauce</p></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Lemon Chicken</h4><p>Crispy chicken, fresh lemon sauce</p></div><span class="mi-price">$15.95</span></div>
+          </div>
+        </div>
+
+        <!-- BEEF -->
+        <div class="menu-panel" id="tab-beef">
+          <p class="menu-panel-note">All beef dishes served with steamed or fried rice.</p>
+          <div class="menu-grid">
+            <div class="menu-item popular"><div class="mi-info"><h4>Pepper Steak</h4><p>Sliced beef, green &amp; red peppers, onions</p></div><span class="mi-price">$17.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef with Broccoli</h4><p>Sliced beef, fresh broccoli, brown sauce</p></div><span class="mi-price">$17.50</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Mongolian Beef 🌶</h4><p>Sliced beef, scallions, spicy brown sauce</p></div><span class="mi-price">$18.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef with Mixed Vegetables</h4><p>Seasonal vegetables, savory sauce</p></div><span class="mi-price">$17.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef with String Beans 🌶</h4><p>Beef, string beans, garlic sauce</p></div><span class="mi-price">$17.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef with Snow Peas</h4><p>Sliced beef, snow peas, light sauce</p></div><span class="mi-price">$17.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Beef with Mushrooms</h4><p>Sliced beef, assorted mushrooms, oyster sauce</p></div><span class="mi-price">$17.95</span></div>
+          </div>
+        </div>
+
+        <!-- SEAFOOD -->
+        <div class="menu-panel" id="tab-seafood">
+          <p class="menu-panel-note">All seafood dishes served with steamed or fried rice.</p>
+          <div class="menu-grid">
+            <div class="menu-item popular"><div class="mi-info"><h4>Shrimp with Lobster Sauce</h4><p>Jumbo shrimp in savory egg &amp; pork sauce</p></div><span class="mi-price">$18.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Shrimp with Broccoli</h4><p>Jumbo shrimp, fresh broccoli, brown sauce</p></div><span class="mi-price">$18.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Sweet &amp; Sour Shrimp</h4><p>Crispy shrimp, peppers, pineapple</p></div><span class="mi-price">$18.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Kung Pao Shrimp 🌶</h4><p>Shrimp, peanuts, peppers, spicy sauce</p></div><span class="mi-price">$19.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Shrimp with Mixed Vegetables</h4><p>Seasonal vegetables, savory sauce</p></div><span class="mi-price">$18.50</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Seafood Delight</h4><p>Shrimp, scallops, crabmeat, mixed vegetables</p></div><span class="mi-price">$22.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Scallops with Garlic Sauce 🌶</h4><p>Sea scallops, garlic, spicy brown sauce</p></div><span class="mi-price">$21.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Shrimp with String Beans 🌶</h4><p>Shrimp, string beans, garlic sauce</p></div><span class="mi-price">$19.50</span></div>
+          </div>
+        </div>
+
+        <!-- PORK -->
+        <div class="menu-panel" id="tab-pork">
+          <div class="menu-grid">
+            <div class="menu-item popular"><div class="mi-info"><h4>Sweet &amp; Sour Pork</h4><p>Crispy pork, peppers, pineapple</p></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Roast Pork with Mixed Vegetables</h4><p>BBQ roast pork, seasonal vegetables</p></div><span class="mi-price">$15.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Roast Pork with Broccoli</h4><p>BBQ roast pork, fresh broccoli, brown sauce</p></div><span class="mi-price">$15.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Twice Cooked Pork 🌶</h4><p>Sliced pork belly, peppers, spicy bean sauce</p></div><span class="mi-price">$16.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Moo Shu Pork</h4><p>Shredded pork, cabbage, egg, 4 pancakes</p></div><span class="mi-price">$15.95</span></div>
+          </div>
+        </div>
+
+        <!-- VEGETABLE -->
+        <div class="menu-panel" id="tab-veggie">
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>Mixed Vegetables</h4><p>Seasonal vegetables in light brown sauce</p></div><span class="mi-price">$12.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Broccoli with Garlic Sauce 🌶</h4><p>Fresh broccoli, garlic, spicy sauce</p></div><span class="mi-price">$12.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Ma Po Tofu 🌶</h4><p>Soft tofu, spicy bean sauce, scallions</p></div><span class="mi-price">$13.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Eggplant with Garlic Sauce 🌶</h4><p>Chinese eggplant, garlic, spicy sauce</p></div><span class="mi-price">$13.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>String Beans with Garlic 🌶</h4><p>Fresh string beans, garlic, dry-fried</p></div><span class="mi-price">$12.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Sautéed Snow Peas</h4><p>Fresh snow peas, garlic, light sauce</p></div><span class="mi-price">$13.50</span></div>
+          </div>
+        </div>
+
+        <!-- CHEF'S SPECIALS -->
+        <div class="menu-panel" id="tab-specials">
+          <p class="menu-panel-note">Our chef's signature dishes. Served with steamed rice.</p>
+          <div class="menu-grid">
+            <div class="menu-item popular"><div class="mi-info"><h4>Happy Family</h4><p>Lobster, shrimp, scallops, beef, chicken &amp; pork</p></div><span class="mi-price">$24.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>Triple Delight</h4><p>Shrimp, chicken &amp; beef with mixed vegetables</p></div><span class="mi-price">$21.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Four Seasons</h4><p>Shrimp, chicken, beef &amp; roast pork</p></div><span class="mi-price">$22.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Crispy Orange Beef 🌶</h4><p>Crispy sliced beef in tangy orange sauce</p></div><span class="mi-price">$22.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Sesame Shrimp</h4><p>Crispy shrimp, sesame sauce, sesame seeds</p></div><span class="mi-price">$22.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Dragon &amp; Phoenix 🌶</h4><p>General Tso's chicken + shrimp with garlic sauce</p></div><span class="mi-price">$23.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Peking Duck (½)</h4><p>Roasted duck, hoisin sauce, scallions, pancakes</p></div><span class="mi-price">$28.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>Salt &amp; Pepper Shrimp 🌶</h4><p>Crispy shrimp, salt, pepper, jalapeños</p></div><span class="mi-price">$23.95</span></div>
+          </div>
+        </div>
+
+        <!-- LUNCH SPECIALS -->
+        <div class="menu-panel" id="tab-lunch">
+          <p class="menu-panel-note">Monday – Saturday 11:00 AM – 3:00 PM. Served with pork fried rice or white rice and soup.</p>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>L1. Chicken with Broccoli</h4><p>Tender chicken, fresh broccoli, brown sauce</p></div><span class="mi-price">$10.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L2. Moo Goo Gai Pan</h4><p>Chicken, mushrooms, vegetables</p></div><span class="mi-price">$10.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>L3. General Tso's Chicken 🌶</h4><p>Crispy chicken, sweet &amp; spicy sauce</p></div><span class="mi-price">$11.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L4. Sesame Chicken</h4><p>Crispy chicken, sesame sauce</p></div><span class="mi-price">$11.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L5. Beef with Broccoli</h4><p>Sliced beef, fresh broccoli, brown sauce</p></div><span class="mi-price">$11.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L6. Pepper Steak</h4><p>Beef, peppers, onions</p></div><span class="mi-price">$11.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L7. Shrimp with Broccoli</h4><p>Jumbo shrimp, broccoli, brown sauce</p></div><span class="mi-price">$12.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L8. Shrimp with Lobster Sauce</h4><p>Jumbo shrimp, egg &amp; pork sauce</p></div><span class="mi-price">$12.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L9. Sweet &amp; Sour Chicken</h4><p>Crispy chicken, peppers, pineapple</p></div><span class="mi-price">$10.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L10. Roast Pork with Mixed Veg</h4><p>BBQ pork, seasonal vegetables</p></div><span class="mi-price">$10.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>L11. Mixed Vegetables</h4><p>Seasonal vegetables, brown sauce</p></div><span class="mi-price">$10.50</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>L12. Kung Pao Chicken 🌶</h4><p>Chicken, peanuts, peppers, spicy sauce</p></div><span class="mi-price">$11.50</span></div>
+          </div>
+        </div>
+
+        <!-- COMBO PLATTERS -->
+        <div class="menu-panel" id="tab-combos">
+          <p class="menu-panel-note">All combo platters served with pork fried rice, egg roll, and wonton soup or egg drop soup.</p>
+          <div class="menu-grid">
+            <div class="menu-item"><div class="mi-info"><h4>C1. Chicken with Broccoli</h4></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>C2. General Tso's Chicken 🌶</h4></div><span class="mi-price">$16.50</span></div>
+            <div class="menu-item popular"><div class="mi-info"><h4>C3. Sesame Chicken</h4></div><span class="mi-price">$16.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C4. Sweet &amp; Sour Chicken</h4></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C5. Pepper Steak</h4></div><span class="mi-price">$16.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C6. Beef with Broccoli</h4></div><span class="mi-price">$16.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C7. Shrimp with Broccoli</h4></div><span class="mi-price">$17.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C8. Shrimp with Lobster Sauce</h4></div><span class="mi-price">$17.50</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C9. Roast Pork w/ Mixed Veg</h4></div><span class="mi-price">$15.95</span></div>
+            <div class="menu-item"><div class="mi-info"><h4>C10. Mixed Vegetables</h4></div><span class="mi-price">$14.95</span></div>
+          </div>
+        </div>
+
+      </div><!-- end menu-panels -->
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <p class="section-label">Fresh &amp; Flavorful</p>
+      <h2>Food <span>Gallery</span></h2>
+      <p class="section-sub">Every dish crafted with care, every plate a feast for the eyes.</p>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=800&q=80" alt="General Tso's Chicken" loading="lazy" />
+          <div class="gallery-overlay"><span>General Tso's Chicken</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=400&q=80" alt="Fried Rice" loading="lazy" />
+          <div class="gallery-overlay"><span>House Special Fried Rice</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&q=80" alt="Dumplings" loading="lazy" />
+          <div class="gallery-overlay"><span>Pan-Fried Dumplings</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1525755662778-989d0524087e?w=400&q=80" alt="Lo Mein" loading="lazy" />
+          <div class="gallery-overlay"><span>House Special Lo Mein</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1614477703937-85d2c4e65ce3?w=400&q=80" alt="Shrimp Dish" loading="lazy" />
+          <div class="gallery-overlay"><span>Seafood Delight</span></div>
+        </div>
+        <div class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=800&q=80" alt="Chinese food spread" loading="lazy" />
+          <div class="gallery-overlay"><span>Family Feast</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=400&q=80" alt="Wonton soup" loading="lazy" />
+          <div class="gallery-overlay"><span>Wonton Soup</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?w=400&q=80" alt="Spare ribs" loading="lazy" />
+          <div class="gallery-overlay"><span>BBQ Spare Ribs</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS & LOCATION -->
+  <section id="hours" class="info-section">
+    <div class="container">
+      <div class="info-grid">
+        <div class="info-card">
+          <div class="info-icon">🕐</div>
+          <h3>Hours of Operation</h3>
+          <table class="hours-table">
+            <tr><td>Monday</td><td>11:00 AM – 10:00 PM</td></tr>
+            <tr><td>Tuesday</td><td>11:00 AM – 10:00 PM</td></tr>
+            <tr><td>Wednesday</td><td>11:00 AM – 10:00 PM</td></tr>
+            <tr><td>Thursday</td><td>11:00 AM – 10:00 PM</td></tr>
+            <tr class="highlight"><td>Friday</td><td>11:00 AM – 11:00 PM</td></tr>
+            <tr class="highlight"><td>Saturday</td><td>11:00 AM – 11:00 PM</td></tr>
+            <tr><td>Sunday</td><td>12:00 PM – 10:00 PM</td></tr>
+          </table>
+          <p class="hours-note">Lunch specials: Mon–Sat 11AM–3PM</p>
+        </div>
+        <div class="info-card map-card">
+          <div class="info-icon">📍</div>
+          <h3>Find Us</h3>
+          <p class="address">Marlton, New Jersey 08053</p>
+          <p class="address-sub">South Jersey's favorite Chinese restaurant</p>
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24543.26!2d-74.92!3d39.89!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6d2b6afd3!2sMarlton%2C+NJ!5e0!3m2!1sen!2sus!4v1"
+              width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" title="King Wong location map">
+            </iframe>
+          </div>
+          <a href="https://maps.google.com/?q=King+Wong+Marlton+NJ" target="_blank" rel="noopener" class="btn btn-outline-dark">Get Directions</a>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <h3>Contact &amp; Order</h3>
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <a href="tel:+18565968990" class="contact-val">(856) 596-8990</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Address</span>
+            <span class="contact-val">Marlton, NJ 08053</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Takeout</span>
+            <span class="contact-val">Call to order ahead</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Delivery</span>
+            <span class="contact-val">Free over $20</span>
+          </div>
+          <a href="tel:+18565968990" class="btn btn-primary" style="margin-top:1.5rem;display:inline-block;">Call to Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-cta">
+        <h2>Ready to Order?</h2>
+        <p>Give us a call or stop in — we'd love to serve you.</p>
+        <div class="cta-buttons">
+          <a href="tel:+18565968990" class="btn btn-primary btn-lg">📞 (856) 596-8990</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-cn large">王</span>
+          <div>
+            <h4>King Wong Restaurant</h4>
+            <p>Marlton, New Jersey</p>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#hours">Hours</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-contact">
+          <p><a href="tel:+18565968990">(856) 596-8990</a></p>
+          <p>Marlton, NJ 08053</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 King Wong Chinese Restaurant. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
